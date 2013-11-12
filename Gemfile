@@ -14,7 +14,3 @@ group :development do
   gem 'rerun',    '~> 0.8.2'
   gem 'shotgun',  '~> 0.9'
 end
-
-configure :production do
-  require 'newrelic_rpm'
-end
