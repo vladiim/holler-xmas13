@@ -1,3 +1,9 @@
+# Doing
+
+    - New Relic
+
+***
+
 # Todo
 
 * DNS
@@ -24,6 +30,8 @@
     - Pay for cloudflare: $20 p/m
     - Pay for Heroku
     - Set up PayPal
+* Design
+    - ico
 
 ***
 

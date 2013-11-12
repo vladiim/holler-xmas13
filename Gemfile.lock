@@ -42,6 +42,7 @@ GEM
     minitest (4.7.5)
     multi_json (1.8.2)
     netrc (0.7.7)
+    newrelic_rpm (3.6.9.171)
     polyglot (0.3.3)
     pony (1.4.1)
       mail (> 2.0)
@@ -81,8 +82,9 @@ DEPENDENCIES
   debugger (~> 1.6.0)
   heroku (~> 2.39.3)
   json (~> 1.7.7)
+  newrelic_rpm (~> 3.6.9.171)
   pony (~> 1.4.1)
   puma (~> 2.6.0)
-  rerun
+  rerun (~> 0.8.2)
   shotgun (~> 0.9)
-  sinatra
+  sinatra (~> 1.4.4)
