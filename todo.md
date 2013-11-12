@@ -1,14 +1,28 @@
 # Doing
 
-    - New Relic
+* Timer
+
+***
+
+# Models
+
+* User
+    - Shockee
+    - Shocker
+
+* Shocks in 4 hours
+    - 5 people
+    - 1 shock every 10 seconds
+    - Shocks = (4 hours * 60 mins * 60 secs) / 10 secs = 1440 shocks p/person
+
+* EMS
+    - Talk to EMS
+    - Asynchronous connections
 
 ***
 
 # Todo
 
-* DNS
-    - Cloudflare
-    - Heorku
 * User detection
     - Only work on certain browsers
     - Don't work if JS turned off
@@ -20,12 +34,10 @@
     - Fix breakpoints for button & footer
 * Analytics
     - Button press
+    - realtime monitoring - chartbeat
     - New Relic
     - Unique user
     - PayPal
-* EMS
-    - Talk to EMS
-    - Asynchronous connections
 * Account management
     - Pay for cloudflare: $20 p/m
     - Pay for Heroku
@@ -43,4 +55,9 @@
 * Footer
 * Set up Puma server
 * Set up VC
-* Set up GA
+* Analytics
+    - Set up GA
+    - New Relic
+* DNS
+    - Cloudflare
+    - Heorku
