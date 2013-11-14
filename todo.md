@@ -1,10 +1,13 @@
 # Doing
 
-* Timer
+* User story
+    - As visitor I can disrupt
 
 ***
 
 # Models
+
+* Timer
 
 * User
     - Shockee
@@ -44,6 +47,7 @@
     - Set up PayPal
 * Design
     - ico
+    - error pages
 
 ***
 

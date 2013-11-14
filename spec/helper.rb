@@ -1,9 +1,10 @@
-require 'rspec/autorun'
-require 'rspec/mocks'
-require 'ostruct'
-require 'rr'
+require File.expand_path('spec/helper_lite')
+require File.expand_path('app')
 
-# RSpec::Core::Configuration.new.tap do |config|
+ENV["RACK_ENV"] = "test"
+
 RSpec.configure do |config|
-  config.mock_with :rr
+  config.include Capybara::DSL
 end
+
+Capybara.app = Sinatra::Application
